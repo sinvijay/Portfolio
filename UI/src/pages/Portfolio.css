@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile-container{
+    background-image: radial-gradient(rgb(252, 242, 225), white);
+    height: 30vh;
+    width: 100vh;
+    
+
+}
+h4 {
+    margin: 50px 0px 0px 70px;
+}
+
+h2{
+    margin: 2px 0px 0px 70px;
+}
+
+h1{
+    display: flex;
+    color: rgb(255, 152, 35);
+    font-size: 4rem;
+    text-shadow: rgb(243, 202, 67) 0px 0px 10px;
+    margin: 0px 0px 0px 70px;
+    
+}
+
+.profile-container .Links1 {
+    text-decoration: none;
+    margin: 0px 70px;
+}
+.profile-container .Links2 {
+    text-decoration: none;
+    margin: 0px -50px;
+}
+.profile-container .hire-btn {
+    padding: 10px;
+    margin: 0px 70px ;
+    display: flex;
+    gap: 50px;
+    
+}
+.profile-container .hire-btn a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgb(116, 116, 116);
+    border-radius: 10px;
+    color: orange;
+    font-weight: bolder;
+    transition-duration: 500ms;
+}
+
+.profile-container .hire-btn a:hover{
+    background-color: orangered;
+    color: black;
+}
+.photo-box {
+    height: 60vh;
+    width: 60vh;
+    border: 0px solid red;
+    border-radius: 50%;
+    float: right;
+    margin: -30vh 30vh;
+    box-shadow: 0px 0px 30px 0px;
+}
+
+.achievement {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    height: 10vh;
+    width: 55vh;
+    border: 0px solid black;
+    margin: 30vh 70px ;
+    background-image: radial-gradient(rgb(247, 210, 210), rgb(255, 230, 230));
+    border-radius: 5px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.425);
+}
