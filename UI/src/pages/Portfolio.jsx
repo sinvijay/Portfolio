@@ -9,8 +9,9 @@ export default function Portfolio() {
                 <h2>Vijay Vikram Singh</h2><br /><br />
                 <h1>Software Developer . Web Developer</h1>
                 <br />
-                <a className= "Links1" href="http://www.linkedin.com/in/sinvijay"><img src="../public/linkedin.svg" alt="icon" height={'30'}/></a>
-                <a className= "Links2" href="https://github.com/sinvijay"><img src="../public/github.svg" alt="icon" height={'40'}/></a>
+                {/* Fixed path: changed from ../public/linkedin.svg to /linkedin.svg */}
+                <a className= "Links1" href="http://www.linkedin.com/in/sinvijay"><img src="/linkedin.svg" alt="icon" height={'30'}/></a>
+                <a className= "Links2" href="https://github.com/sinvijay"><img src="/github.svg" alt="icon" height={'40'}/></a>
                 <br />
                 <br />
                 <div className='hire-btn'>
@@ -19,7 +20,8 @@ export default function Portfolio() {
                 </div>
             </div>
             <br />
-            <div className='photo-box'><img src="../public/github.svg" alt="" /></div>
+            {/* Fixed path here as well */}
+            <div className='photo-box'><img src="/github.svg" alt="" /></div>
             <div className="achievement">
                 <p>5+<br />
                 Experience</p>
@@ -29,9 +31,7 @@ export default function Portfolio() {
                 <h3>|</h3>
                 <p>30+<br />
                 Happy Clients</p>
-
             </div>
-            
         </div>
     )
 }
