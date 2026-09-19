@@ -84,3 +84,45 @@ h3{
     font-size: 3rem;
     color: rgba(255, 255, 255, 0.425);
 }
+
+.cont-box {
+    min-height: 60vh;
+    min-width: 80vh;
+    justify-self: center;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.cont-box h3 {
+    color: red;
+    font-size: 20px;
+    margin-top: 0px;
+    justify-self: center;
+    padding: 10px;
+
+}
+.cont-box p {
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.cont-box input{
+    margin: -15px 30vh;
+    display: flex;
+    width: 50vh;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.cont-box button {
+    padding: 10px;
+    color: azure;
+    width: 20vh;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 50px 40vh;
+    background-color: blueviolet;
+
+}
